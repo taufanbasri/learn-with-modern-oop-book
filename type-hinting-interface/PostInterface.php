@@ -2,7 +2,7 @@
 
 interface PostInterface
 {
-    public function getTitle();
+    public function getTitle(): string;
     
-    public function getContent();
+    public function getContent(): string;
 }

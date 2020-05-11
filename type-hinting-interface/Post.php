@@ -11,12 +11,12 @@ class Post implements PostInterface
         $this->content = $content;
     }
 
-    public function getTitle()
+    public function getTitle(): string
     {
         return $this->title;
     }
 
-    public function getContent()
+    public function getContent(): string
     {
         return $this->content;
     }

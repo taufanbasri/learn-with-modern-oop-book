@@ -1,0 +1,28 @@
+{
+    "type": "library",
+    "license": "proprietary",
+    "name": "belajar/pph21",
+    "authors": [
+        {
+            "name": "Taufan Prasetyo",
+            "email": "taufanpr22@gmail.com",
+            "homepage": "https://github.com/taufanbasri"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "TaufanOOP\\PPH21\\": "src"
+        }
+    }
+}
